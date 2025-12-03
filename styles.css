@@ -2086,7 +2086,7 @@ h1::selection, h2::selection, h3::selection {
 
 .whatsapp-float {
     position: fixed;
-    bottom: 100px;
+    bottom: 30px;
     right: 30px;
     width: 60px;
     height: 60px;
@@ -2613,6 +2613,166 @@ h1::selection, h2::selection, h3::selection {
 @keyframes grainMove {
     from { background-position: 0 0; }
     to { background-position: 100px 0; }
+}
+
+/* ========================================
+   PAGE HEADERS & INDIVIDUAL PAGE STYLES
+   ======================================== */
+
+.page-header {
+    padding: 180px 0 80px;
+    background: linear-gradient(135deg, var(--color-bg-dark) 0%, var(--color-bg) 100%);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="rgba(201,166,107,0.1)"/></svg>');
+    opacity: 0.5;
+}
+
+.page-header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.page-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--color-text);
+    margin-bottom: var(--space-md);
+}
+
+.page-subtitle {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Page */
+.about-page {
+    padding: var(--space-3xl) 0;
+    background: var(--color-bg);
+}
+
+.about-page .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .about-page .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Gallery Page */
+.gallery-page {
+    padding: var(--space-3xl) 0;
+    background: var(--color-bg);
+}
+
+.gallery-cta {
+    text-align: center;
+    margin-top: var(--space-2xl);
+}
+
+/* Services Page */
+.services-page {
+    padding: var(--space-3xl) 0;
+    background: var(--color-bg);
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin-top: var(--space-md);
+}
+
+.service-features li {
+    padding: var(--space-xs) 0;
+    padding-left: var(--space-md);
+    position: relative;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+}
+
+.service-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+}
+
+/* FAQ Page */
+.faq-page {
+    padding: var(--space-3xl) 0;
+    background: var(--color-bg);
+}
+
+/* Contact Page */
+.contact-page {
+    padding: var(--space-3xl) 0;
+    background: var(--color-bg);
+}
+
+.contact-page .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+}
+
+.contact-page .contact-text {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-xl);
+    line-height: 1.8;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+@media (max-width: 992px) {
+    .contact-page .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CTA Section */
+.cta-section {
+    padding: var(--space-3xl) 0;
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--color-bg-dark);
+    margin-bottom: var(--space-sm);
+}
+
+.cta-content p {
+    color: rgba(26, 22, 18, 0.7);
+    margin-bottom: var(--space-lg);
+}
+
+.cta-section .btn-primary {
+    background: var(--color-bg-dark);
+    color: var(--color-accent);
+}
+
+.cta-section .btn-primary:hover {
+    background: var(--color-bg);
 }
 
 /* ========================================

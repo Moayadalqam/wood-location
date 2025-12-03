@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | Wood Location - Artisan Wood Furniture</title>
+    <meta name="description" content="Learn about Wood Location's journey in crafting timeless wood furniture pieces. Our passion for woodworking and commitment to quality craftsmanship.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪵</text></svg>">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav scrolled" id="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Wood</span>
+                <span class="logo-accent">Location</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">Our Story</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="https://www.instagram.com/wood_location/" target="_blank" class="nav-instagram" aria-label="Instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <div class="section-label">About Us</div>
+                <h1 class="page-title">Our Story</h1>
+                <p class="page-subtitle">Crafting timeless pieces from nature's finest materials since day one.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-page">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="images/about-main.jpg" alt="Wood Location Craftsmanship" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\' data-text=\'Craftsmanship\'><div class=\'placeholder-grain\'></div></div>'">
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="images/about-detail.jpg" alt="Wood Detail" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\' data-text=\'Detail\'><div class=\'placeholder-grain\'></div></div>'">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Crafting Timeless Pieces from Nature's Finest</h2>
+                    <p class="about-text">
+                        At Wood Location, we believe that every piece of wood has a story waiting to be told. 
+                        Our journey began with a simple passion: to transform raw timber into functional art 
+                        that brings warmth and character to any space.
+                    </p>
+                    <p class="about-text">
+                        Each creation in our workshop is a testament to traditional craftsmanship combined 
+                        with contemporary design sensibilities. We source our materials responsibly, 
+                        ensuring that every grain pattern and natural edge is celebrated rather than hidden.
+                    </p>
+                    <p class="about-text">
+                        Our commitment to quality means we never rush a project. We take the time to understand 
+                        your vision, select the perfect materials, and craft each piece with meticulous attention 
+                        to detail. The result is furniture that will be cherished for generations.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Quality Guaranteed</h4>
+                                <p>Premium materials and expert craftsmanship</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Handcrafted</h4>
+                                <p>Every piece made with meticulous attention</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Local Sourcing</h4>
+                                <p>Sustainably sourced regional timber</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">How We Work</div>
+                <h2 class="section-title">Our Process</h2>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-marker"><span>1</span></div>
+                    <div class="step-content">
+                        <h3>Consultation</h3>
+                        <p>We discuss your vision, needs, and preferences to understand your project fully.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-marker"><span>2</span></div>
+                    <div class="step-content">
+                        <h3>Design</h3>
+                        <p>Our team creates detailed designs and selects the perfect materials for your piece.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-marker"><span>3</span></div>
+                    <div class="step-content">
+                        <h3>Crafting</h3>
+                        <p>Skilled artisans bring your design to life with precision and attention to detail.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-marker"><span>4</span></div>
+                    <div class="step-content">
+                        <h3>Delivery</h3>
+                        <p>Your finished piece is carefully delivered and installed in your space.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's create something beautiful together.</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">Wood</span>
+                        <span class="logo-accent">Location</span>
+                    </a>
+                    <p>Crafting timeless pieces from nature's finest materials.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/wood_location/" target="_blank" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Our Story</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html">Custom Furniture</a></li>
+                            <li><a href="services.html">Live Edge Work</a></li>
+                            <li><a href="services.html">Restoration</a></li>
+                            <li><a href="services.html">Wood Decor</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wood Location. All rights reserved.</p>
+                <p>Handcrafted with passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/96599364998?text=Hi!%20I'm%20interested%20in%20your%20wood%20furniture." target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
