@@ -1,0 +1,12 @@
+# robots.txt for Wood Location
+# https://woodlocation.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://woodlocation.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+

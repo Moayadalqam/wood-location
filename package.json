@@ -1,0 +1,26 @@
+{
+  "name": "wood-location",
+  "version": "1.0.0",
+  "description": "Wood Location - Artisan Wood Furniture & Craftsmanship Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "woodworking",
+    "furniture",
+    "artisan",
+    "craftsmanship",
+    "wood",
+    "custom-furniture"
+  ],
+  "author": "Wood Location",
+  "license": "MIT",
+  "homepage": "https://www.instagram.com/wood_location/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/wood-location.git"
+  }
+}
+
