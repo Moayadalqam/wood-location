@@ -1,18 +1,5 @@
 {
   "version": 2,
-  "name": "wood-location",
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -60,4 +47,3 @@
     }
   ]
 }
-
